@@ -1,0 +1,36 @@
+.dropdown-menu {
+  background: red;
+  width: 200px;
+  position: absolute;
+  top: 80px;
+  list-style: none;
+  text-align: start;
+}
+
+.dropdown-menu li {
+  background: $primary-light;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background: $primary-dark;
+}
+
+.dropdown-menu.clicked {
+  display: none;
+}
+
+.dropdown-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: $white;
+  padding: 16px;
+}
+
+@include breakpoints-down(medium) {
+  .fa-caret-down {
+    display: none;
+  }
+}
