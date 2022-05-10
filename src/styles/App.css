@@ -648,4 +648,166 @@ footer p {
     padding: 8px 40px;
   }
 }
+
+.service {
+  width: 100%;
+  background: #000;
+  padding: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5rem;
+}
+
+.service_left {
+  width: 50%;
+}
+
+.service_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3rem;
+}
+
+.service_card {
+  padding: 50px 70px;
+  border-radius: 10px;
+  background: #121213;
+  -webkit-filter: drop-shadow(0 0 20px black);
+          filter: drop-shadow(0 0 20px black);
+}
+
+.service_card:hover {
+  -webkit-filter: drop-shadow(0 0 2px black);
+          filter: drop-shadow(0 0 2px black);
+}
+
+.card_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card_title {
+  font-size: 43px;
+  color: #fff;
+}
+
+.card_icon {
+  width: 50%;
+}
+
+.card_desc {
+  color: #9797a3;
+  padding: 10px 0px 30px 0px;
+}
+
+.card_link {
+  color: #9797a3;
+  text-transform: uppercase;
+}
+
+.service_card:hover {
+  background-color: #000;
+}
+
+.service_right {
+  width: 50%;
+}
+
+.service_subtitle {
+  color: #9797a3;
+  font-size: 22px;
+}
+
+.service_title {
+  color: #fff;
+  font-size: 60px;
+  padding: 50px 0px;
+}
+
+.service_info {
+  font-style: italic;
+  font-size: 30px;
+  padding-bottom: 30px;
+  color: #9797a3;
+}
+
+.service_desc {
+  color: #9797a1;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+@media (max-width: 1024px) {
+  .service {
+    height: unset;
+    padding: 100px 40px;
+  }
+  .service_title {
+    font-size: 50px;
+  }
+  .service_info {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  .service_desc {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .service_card {
+    padding: 30px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .service {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 3rem;
+    padding: 100px 20px;
+  }
+  .service_right {
+    width: unset;
+  }
+  .service_left {
+    width: unset;
+  }
+  .service_cards {
+    overflow-x: scroll;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 30px 40px;
+  }
+  .service_cards::-webkit-scrollbar {
+    display: none;
+  }
+  .service_card {
+    padding: 30px;
+  }
+  .card_top {
+    width: 250px;
+  }
+}
 /*# sourceMappingURL=App.css.map */

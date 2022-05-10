@@ -31,8 +31,8 @@ const Footer = () => {
           <ul className="data">
             <li>
               <span><i className="fas fa-map-marker-alt"></i></span>
-              <span>647 Linda Street <br />
-                Phoenixvilla, PA 19460, <br />USA</span>
+              <span>84/7 Shewrapara<br />
+              Mirpur, Dhaka 1216 <br />Bangladesh</span>
             </li>
             <li>
               <span><i className="fas fa-phone" ></i></span>
