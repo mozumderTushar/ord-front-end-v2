@@ -8,12 +8,12 @@
 }
 
 .dropdown-menu li {
-  background: $primary-light;
+  background: $button-bg;
   cursor: pointer;
 }
 
 .dropdown-menu li:hover {
-  background: $primary-dark;
+  background: $black-light;
 }
 
 .dropdown-menu.clicked {
