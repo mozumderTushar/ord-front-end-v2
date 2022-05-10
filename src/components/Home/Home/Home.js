@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../../Shared/NavBar/NavBar/NavBar';
+import Gallery from '../Gallery/Gallery';
 import HeroSection from '../HeroSection/HeroSection';
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <Navbar />
       <HeroSection />
+      <Gallery />
     </div>
   );
 };
