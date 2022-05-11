@@ -15,7 +15,7 @@ const Gallery = () => {
 
   return (
     <>
-      <h1 className='title'>Image Gallery</h1>
+      {/* <h1 className='title'>Image Gallery</h1> */}
       <div className={ model ? 'model open' : 'model' }>
         <img src={ tempImgSrc } alt="" />
         <CloseIcon onClick={ () => setModel(false) } />
