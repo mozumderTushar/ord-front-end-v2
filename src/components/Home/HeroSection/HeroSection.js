@@ -12,9 +12,9 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="hero_content">
-        <h1>Virtual Banking Made Easy</h1>
+        <h1>ORD  International</h1>
         <p>
-          Sign up for a new account today and receive $250 in credit towards your next payment.
+        Elevator, Generator and Substation  Manufacturer, Importer & Supplier
         </p>
         {/* <div className="hero_btn">
           <Button to='signup'>
