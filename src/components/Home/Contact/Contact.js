@@ -19,7 +19,7 @@ const Contact = () => {
       });
   };
   return (
-    <div className="contacts" id="contact">
+    <div className="contacts" id="contact" data-aos='fade-up'>
       <div className="contacts_head">
         <h1>LET'S GET TO WORK.</h1>
         <p>Email us to discuss your project : info.orde@gmail.com</p>

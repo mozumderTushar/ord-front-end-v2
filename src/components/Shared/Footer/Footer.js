@@ -2,11 +2,11 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer data-aos='fade-up'>
       <div className="container">
         <div className="info aboutus">
           <h2>About Us</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, est obcaecati incidunt facere laudantium voluptatum numquam voluptatem quaerat eligendi perferendis.
+          <p>ORD International was founded on 1st January 2015. It starts its journey with importing 6 elevator and 315kva 3sets substation Head office at Mirpur Dhaka Bangladesh . And Branch Office at Cumilla, , Chittagong & Dhaka. Now Head Office is 84/7Shewrapara, Mirpur, Dhaka-1216
           </p>
           <ul className="icon">
             <li><a href="#"><i className="fab fa-facebook"></i></a></li>

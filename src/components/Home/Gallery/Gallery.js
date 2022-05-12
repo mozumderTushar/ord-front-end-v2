@@ -16,12 +16,12 @@ const Gallery = () => {
   return (
     <>
       {/* <h1 className='title'>Image Gallery</h1> */}
-      <div className={ model ? 'model open' : 'model' }>
+      <div className={ model ? 'model open' : 'model' } >
         <img src={ tempImgSrc } alt="" />
         <CloseIcon onClick={ () => setModel(false) } />
       </div>
 
-      <div className="gallery">
+      <div className="gallery" data-aos='fade-up'>
         {
           galleryImg.map((item, index) => {
             return (

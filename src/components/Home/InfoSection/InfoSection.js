@@ -8,14 +8,14 @@ import img2 from '../../../images/img/about/2.png'
 
 const InfoSection = () => {
   return (
-    <section className="page-section" id="about">
+    <section className="page-section" id="about" data-aos='fade-up'>
       <div className="container">
         <div className="text-center">
           <h1 className='title_about' style={ { 'color': '#fff', 'marginBottom': '3%' } }>ABOUT US</h1>
         </div>
         <ul className="timeline">
-          <li>
-            <div className="timeline-image"><img className="rounded-circle img-fluid" src={ director } alt="..." /></div>
+          <li data-aos='fade-up'> 
+            <div className="timeline-image" ><img className="rounded-circle img-fluid" src={ director } alt="..." /></div>
             <div className="timeline-panel">
               <div className="timeline-heading">
                 <h1>January 2015</h1>
@@ -28,7 +28,7 @@ const InfoSection = () => {
               </div>
             </div>
           </li>
-          <li className="timeline-inverted">
+          <li className="timeline-inverted" data-aos='fade-up'>
             <div className="timeline-image"><img className="rounded-circle img-fluid" src={ img2 } alt="..." /></div>
             <div className="timeline-panel">
               <div className="timeline-heading">
@@ -38,7 +38,7 @@ const InfoSection = () => {
               <div className="timeline-body"><p className="text-muted"> It is import and service base company of Lift, Generator and Substation. We have an energetic marketing team all over in Bangladesh. Now ORD International is reputed company . Everything we do is focused on achieving the highest quality in meeting the needs of our valuable customer we import Elevator from Difference country also highly certified company, we never Compromise with Product quality & that’s why we have achieved our goodwill in the market.</p></div>
             </div>
           </li>
-          <li>
+          <li data-aos='fade-up'>
             <div className="timeline-image"><img className="rounded-circle img-fluid" src={ vission } alt="..." /></div>
             <div className="timeline-panel">
               <div className="timeline-heading">
@@ -49,7 +49,7 @@ const InfoSection = () => {
             </div>
           </li>
 
-          <li className="timeline-inverted">
+          <li className="timeline-inverted" data-aos='fade-up'>
             <div className="timeline-image"><img className="rounded-circle img-fluid" src={ future } alt="..." /></div>
             <div className="timeline-panel">
               <div className="timeline-heading">
@@ -62,7 +62,7 @@ const InfoSection = () => {
 
          
 
-          <li>
+          <li data-aos='fade-up'>
             <div className="timeline-image"><img className="rounded-circle img-fluid" src={ mission } alt="..." /></div>
             <div className="timeline-panel">
               <div className="timeline-heading">
@@ -74,7 +74,7 @@ const InfoSection = () => {
             </div>
           </li>
 
-          <li className="timeline-inverted">
+          <li className="timeline-inverted" data-aos='fade-up'>
             <div className="timeline-image">
               <h4>
                 Be Part
