@@ -1150,4 +1150,13 @@ footer p {
 .field_btn:hover {
   opacity: 0.7;
 }
+
+.customer-logos {
+  background-color: #e6f2ff;
+}
+
+img.logo-img {
+  height: 120px;
+  width: 150px;
+}
 /*# sourceMappingURL=App.css.map */
