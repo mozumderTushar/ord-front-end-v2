@@ -609,6 +609,9 @@ body {
   transition: all 250ms ease;
   cursor: pointer;
   margin-bottom: 12px;
+  position: relative;
+  text-align: center;
+  color: #d1cece;
 }
 
 .gallery_pics:hover {
@@ -693,6 +696,14 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   color: #d1cece;
   cursor: pointer;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 2%;
+  left: 5%;
+  background-color: black;
+  padding: 1%;
 }
 
 footer {

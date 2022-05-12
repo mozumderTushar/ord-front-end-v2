@@ -15,7 +15,7 @@ const Gallery = () => {
 
   return (
     <>
-      {/* <h1 className='title'>Image Gallery</h1> */}
+      {/* <h1 className='title'>Image Gallery</h1> */ }
       <div className={ model ? 'model open' : 'model' } >
         <img src={ tempImgSrc } alt="" />
         <CloseIcon onClick={ () => setModel(false) } />
@@ -27,6 +27,7 @@ const Gallery = () => {
             return (
               <div className="gallery_pics" key={ index } onClick={ () => getImg(item.imgSrc) }>
                 <img className="gallery_img img-fluid" src={ item.imgSrc } alt="IMG" />
+                <div className="bottom-left"><h3>{ item.title }</h3></div>
               </div>
             )
           })
