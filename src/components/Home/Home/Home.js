@@ -4,6 +4,7 @@ import LogoSlider from '../../Shared/LogoSlider/LogoSlider';
 import Navbar from '../../Shared/NavBar/NavBar/NavBar';
 import Contact from '../Contact/Contact';
 import Gallery from '../Gallery/Gallery';
+import Header from '../Header/Header';
 import HeroSection from '../HeroSection/HeroSection';
 import InfoSection from '../InfoSection/InfoSection';
 import Services from '../Services/Services';
@@ -13,7 +14,8 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <HeroSection />
+      <Header />
+      {/* <HeroSection /> */}
       {/* <SisterOrg /> */}
       <Gallery />
       {/* <Services /> */}

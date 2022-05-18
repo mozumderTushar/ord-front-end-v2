@@ -43,7 +43,7 @@ const LogoSlider = () => {
           })
         }
       </Slider>
-      <hr />
+      
     </div>
   );
 };

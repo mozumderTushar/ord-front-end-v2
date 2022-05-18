@@ -1,5 +1,5 @@
 .title{
-  margin: 3% 0% 1% 0%;
+  margin: 5% 0% 1% 0%;
   color: $black;
   font-size: 48px;
   text-align: center;
@@ -14,6 +14,7 @@
 }
 
 .gallery{
+  margin-top: 10%;
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
@@ -49,6 +50,10 @@
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
+
+    .gallery{
+      margin-top: 0%;
+    }
   }
 
   @include breakpoints-down(small){
@@ -58,6 +63,11 @@
     -webkit-column-width: 100%;
     -moz-column-width: 100%;
     column-width: 100%;
+
+    
+    .gallery{
+      margin-top: 0%;
+    }
   }
 }
  

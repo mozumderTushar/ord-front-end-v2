@@ -1,0 +1,88 @@
+.content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 125px;
+
+  .left{
+    margin-left: 130px;
+    margin-right: 50px;
+    h1{
+      font-size: 70px;
+      text-transform: uppercase;
+      line-height: 80px;
+      color: rgb(31, 31, 31);
+
+      @include breakpoints-down(medium){
+        display: none;
+        font-size: 36px;
+        line-height: 0px;
+      }
+ 
+      @include breakpoints-down(small){
+       font-size: 32px;
+       display: none;
+       line-height: 0px;
+     }
+    }
+
+    p{
+      @include breakpoints-down(medium){
+        font-size: 24px;
+        margin-top: 20%;
+      }
+  
+      @include breakpoints-down(small){
+       font-size: 18px;
+       margin-top: 20%;
+     }
+    }
+
+  }
+
+  .right{
+    .box{
+      width: 750px;
+      height: 500px;
+      background-color: #ff8800;
+      border-top-left-radius: 100%;
+      border-bottom-left-radius: 100%;
+      position: relative;
+
+      .director{
+        position: absolute;
+        top: -60px;
+        left: -60px;
+        width: 110%;
+        filter: drop-shadow(1px 1px 5px black);
+        animation: updown 3s infinite;
+      }
+    }
+  }
+}
+
+@keyframes updown {
+  0%{
+    top: -40px;
+  }
+  50%{
+    top: 0;
+  }
+  100%{
+    top: -40px;
+  }
+}
+
+@media only screen and (max-width: 1100px){
+  .content{
+    justify-content: center;
+    text-align: center;
+    .left{
+      margin: 0;
+      padding: 0 30px;
+    }
+    .right{
+      display: none;
+    }
+  }
+}

@@ -146,13 +146,12 @@
 //   }
 // }
 
-.header{
-  position: fixed;
+.header_nav{
   top: 0;
   left: 0;
   right: 0;
   background: #fff;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  // box-shadow: 0 5px 10px rgba(0,0,0,0.1);
   padding: 0px 7%;
   display: flex;
   align-items: center;
@@ -212,7 +211,8 @@
   display: none;
 }
 
-.header{
+.header_nav{
+  position: fixed;
   >label{
     font-size: 20px;
     color: #333;
@@ -222,9 +222,10 @@
 }
 
 @media (max-width: 991px){
-  .header {
+  .header_nav {
     padding: 20px;
     text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 
     > label{
       display: inline;

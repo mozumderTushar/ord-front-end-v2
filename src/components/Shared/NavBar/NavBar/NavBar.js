@@ -98,7 +98,7 @@ function Navbar() {
         </ul>
         <Button />
       </nav> */}
-      <div className="header">
+      <div className="header_nav">
 
         <Link to='/'>
           <img className="logo" src={ logo } alt="" />
