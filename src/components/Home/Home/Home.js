@@ -14,7 +14,7 @@ const Home = () => {
     <div>
       <Navbar />
       <HeroSection />
-      <SisterOrg />
+      {/* <SisterOrg /> */}
       <Gallery />
       {/* <Services /> */}
       <InfoSection />
