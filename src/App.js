@@ -11,6 +11,7 @@ import {
 import NavBar from './components/Shared/NavBar/NavBar/NavBar';
 import Home from './components/Home/Home/Home';
 import { useEffect } from 'react';
+import AboutUs from './components/AboutUs/AboutUs';
 
 function App() {
   useEffect(()=>{
@@ -20,7 +21,8 @@ function App() {
     <Router>
       <Routes>
         {/* <Route path="/" element={<NavBar />} /> */}
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
       </Routes>
     </Router>
   );

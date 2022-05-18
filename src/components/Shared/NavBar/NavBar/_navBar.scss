@@ -173,6 +173,7 @@
   >.navbar ul li{
     position: relative;
     float: left;
+    z-index: 9999;
   }
 
   >.navbar ul li a{
@@ -212,7 +213,6 @@
 }
 
 .header_nav{
-  position: fixed;
   >label{
     font-size: 20px;
     color: #333;
@@ -223,6 +223,7 @@
 
 @media (max-width: 991px){
   .header_nav {
+    position: fixed;
     padding: 20px;
     text-align: center;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);

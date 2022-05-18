@@ -75,6 +75,7 @@ body {
 .header_nav > .navbar ul li {
   position: relative;
   float: left;
+  z-index: 9999;
 }
 
 .header_nav > .navbar ul li a {
@@ -112,10 +113,6 @@ body {
   display: none;
 }
 
-.header_nav {
-  position: fixed;
-}
-
 .header_nav > label {
   font-size: 20px;
   color: #333;
@@ -125,6 +122,7 @@ body {
 
 @media (max-width: 991px) {
   .header_nav {
+    position: fixed;
     padding: 20px;
     text-align: center;
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -315,7 +313,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 125px;
+  padding-top: 50px;
 }
 
 .content .left {
