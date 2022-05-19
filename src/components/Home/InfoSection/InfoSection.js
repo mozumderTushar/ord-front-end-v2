@@ -32,7 +32,7 @@ const InfoSection = () => {
             <div className="timeline-image"><img className="rounded-circle img-fluid" src={ img2 } alt="..." /></div>
             <div className="timeline-panel">
               <div className="timeline-heading">
-                <h1>An Agency is Born</h1>
+                <h1>Agency Born</h1>
                 <h3 className="subheading">Services We Provide</h3>
               </div>
               <div className="timeline-body"><p className="text-muted"> It is import and service base company of Lift, Generator and Substation. We have an energetic marketing team all over in Bangladesh. Now ORD International is reputed company . Everything we do is focused on achieving the highest quality in meeting the needs of our valuable customer we import Elevator from Difference country also highly certified company, we never Compromise with Product quality & that’s why we have achieved our goodwill in the market.</p></div>
@@ -53,7 +53,7 @@ const InfoSection = () => {
             <div className="timeline-image"><img className="rounded-circle img-fluid" src={ future } alt="..." /></div>
             <div className="timeline-panel">
               <div className="timeline-heading">
-                <h1>Our Future Goal</h1>
+                <h1>Future Goal</h1>
                 <h3 className="subheading">develop our organization into a synonym of quality healthcare</h3>
               </div>
               <div className="timeline-body"><p className="text-muted">At ORD International we wish to develop our organization into a synonym of quality healthcare and become the optimum supplier of innovative specialty products and services in every market segment we are involved in, at country level. We wish to meet countrywide expectations for access to fast, innovative and cost effective healthcare. Additionally, through our activities we are keen to offering as many career opportunities as possible and become an employer of choice. Finally, we understand that healthcare is “all about giving” and throughout our social activities, we are committed “to give back to the local community”.</p></div>

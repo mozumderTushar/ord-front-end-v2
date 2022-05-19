@@ -1289,6 +1289,20 @@ img.logo-img {
   margin: 1.5rem 0;
 }
 
+@media (max-width: 64em) {
+  .menu {
+    display: -ms-inline-grid;
+    display: inline-grid;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .menu {
+    display: -ms-inline-grid;
+    display: inline-grid;
+  }
+}
+
 .menu a {
   font-size: 1.1rem;
   text-decoration: none;
@@ -1296,6 +1310,18 @@ img.logo-img {
   background-color: #753cf8;
   color: #fff;
   padding: 8px 22px;
+}
+
+@media (max-width: 64em) {
+  .menu a {
+    margin: 1.5rem 1.5rem 0;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .menu a {
+    margin: 1.5rem 1.5rem 0;
+  }
 }
 
 .box {
@@ -1320,6 +1346,20 @@ img.logo-img {
   padding: 1rem;
   margin-left: 3%;
   width: 30%;
+}
+
+@media (max-width: 64em) {
+  .store-item {
+    width: 100%;
+    margin-left: 4%;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .store-item {
+    width: 100%;
+    margin-left: 4%;
+  }
 }
 
 .store-item img {

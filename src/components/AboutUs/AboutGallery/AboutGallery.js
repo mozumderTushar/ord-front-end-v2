@@ -8,6 +8,7 @@ import tax4 from '../../../images/img/documents/tax4.png';
 
 import trade from '../../../images/img/documents/tread_lycense.png';
 import trade2 from '../../../images/img/documents/trade2.png';
+import drug from '../../../images/img/documents/drug.png';
 
 import importImg from '../../../images/img/documents/import.png';
 import importImg2 from '../../../images/img/documents/import2.png';
@@ -20,6 +21,13 @@ import work2 from '../../../images/img/documents/work2.png';
 import work3 from '../../../images/img/documents/work3.png';
 import work4 from '../../../images/img/documents/work4.png';
 import work5 from '../../../images/img/documents/work5.png';
+import work6 from '../../../images/img/documents/work6.png';
+import work7 from '../../../images/img/documents/work7.png';
+import work8 from '../../../images/img/documents/work8.png';
+import work9 from '../../../images/img/documents/work9.png';
+import work10 from '../../../images/img/documents/work10.png';
+import work11 from '../../../images/img/documents/work11.png';
+import work12 from '../../../images/img/documents/work12.png';
 
 
 const AboutGallery = () => {
@@ -100,6 +108,9 @@ const AboutGallery = () => {
         <div className="store-item trade" onClick={ () => getImg(trade2) }>
           <img src={ trade2 } alt="" className="store-img" />
         </div>
+        <div className="store-item trade" onClick={ () => getImg(drug) }>
+          <img src={ drug } alt="" className="store-img" />
+        </div>
 
         <div className="store-item import" onClick={ () => getImg(importImg) }>
           <img src={ importImg } alt="" className="store-img" />
@@ -129,6 +140,30 @@ const AboutGallery = () => {
         </div>
         <div className="store-item work" onClick={ () => getImg(work5) }>
           <img src={ work5 } alt="" className="store-img" />
+        </div>
+        <div className="store-item work" onClick={ () => getImg(work5) }>
+          <img src={ work5 } alt="" className="store-img" />
+        </div>
+        <div className="store-item work" onClick={ () => getImg(work6) }>
+          <img src={ work6 } alt="" className="store-img" />
+        </div>
+        <div className="store-item work" onClick={ () => getImg(work7) }>
+          <img src={ work7 } alt="" className="store-img" />
+        </div>
+        <div className="store-item work" onClick={ () => getImg(work8) }>
+          <img src={ work8 } alt="" className="store-img" />
+        </div>
+        <div className="store-item work" onClick={ () => getImg(work9) }>
+          <img src={ work9 } alt="" className="store-img" />
+        </div>
+        <div className="store-item work" onClick={ () => getImg(work10) }>
+          <img src={ work10 } alt="" className="store-img" />
+        </div>
+        <div className="store-item work" onClick={ () => getImg(work11) }>
+          <img src={ work11 } alt="" className="store-img" />
+        </div>
+        <div className="store-item work" onClick={ () => getImg(work12) }>
+          <img src={ work12 } alt="" className="store-img" />
         </div>
       </div>
 
