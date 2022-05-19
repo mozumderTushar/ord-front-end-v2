@@ -11,7 +11,8 @@ import {
 import NavBar from './components/Shared/NavBar/NavBar/NavBar';
 import Home from './components/Home/Home/Home';
 import { useEffect } from 'react';
-import AboutUs from './components/AboutUs/AboutUs';
+import AboutUs from './components/AboutUs/AboutUs/AboutUs';
+
 
 function App() {
   useEffect(()=>{
