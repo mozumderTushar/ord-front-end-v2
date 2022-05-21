@@ -1,4 +1,4 @@
-.container{
+.containers{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,17 +45,17 @@
   font-size: 1.1rem;
   text-decoration: none;
   border-radius: 20px;
-  border: 1px solid rgba(74, 144, 226, 0.5);
-  color: rgb(31, 31, 31);
   margin: 0 1.5rem 0;
-  // background-color: rgba(74, 144, 226, 0.5);
-  // color: black;
   padding: 8px 22px;
 
+  background-color: #4a90e2;
+  border: 1px solid #4a90e2;
+  color: #fff;
+
   &:hover {
-    background-color: #4a90e2;
-    border: 1px solid #4a90e2;
-    color: #fff;
+    background-color: transparent;
+    border: 1px solid rgba(74, 144, 226, 0.5);
+    color: rgb(31, 31, 31);
     transition: all ease 0.3s;
   }
 

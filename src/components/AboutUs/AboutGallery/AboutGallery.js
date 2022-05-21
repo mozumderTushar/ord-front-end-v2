@@ -69,8 +69,8 @@ const AboutGallery = () => {
   }
 
   return (
-    <div className="container">
-      <h1>COMPANY'S DOCUMENTS</h1>
+    <div className="containers">
+      <h1>DOCUMENTS</h1>
 
       <div className={ model ? 'model open' : 'model' } >
         <img src={ tempImgSrc } alt="" />
