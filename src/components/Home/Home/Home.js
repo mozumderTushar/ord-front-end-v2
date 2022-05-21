@@ -12,7 +12,7 @@ import SisterOrg from '../SisterOrg/SisterOrg';
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
       <Navbar />
       <Header />
       {/* <HeroSection /> */}
