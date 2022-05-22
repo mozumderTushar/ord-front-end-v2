@@ -12,6 +12,7 @@ import NavBar from './components/Shared/NavBar/NavBar/NavBar';
 import Home from './components/Home/Home/Home';
 import { useEffect } from 'react';
 import AboutUs from './components/AboutUs/AboutUs/AboutUs';
+import ImageGallery from './components/ImageGallery/ImageGallery';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         {/* <Route path="/" element={<NavBar />} /> */}
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/images" element={<ImageGallery />} />
       </Routes>
     </Router>
   );

@@ -1,20 +1,19 @@
-.title{
+.title {
   margin: 5% 0% 1% 0%;
   color: $black;
   font-size: 48px;
   text-align: center;
 
-  @include breakpoints-down(medium){
+  @include breakpoints-down(medium) {
     font-size: 40px;
   }
 
-  @include breakpoints-down(small){
-   font-size: 32px;
- }
+  @include breakpoints-down(small) {
+    font-size: 32px;
+  }
 }
 
-.gallery{
-  margin-top: 10%;
+.gallery {
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
@@ -25,7 +24,7 @@
   // background-color: #e6f2ff;
   padding-bottom: 1%;
 
-  &_pics{
+  &_pics {
     -webkit-transition: all 250ms ease;
     transition: all 250ms ease;
     cursor: pointer;
@@ -35,28 +34,28 @@
     text-align: center;
     color: $white;
 
-    &:hover{
+    &:hover {
       filter: opacity(.8);
     }
   }
 
-  &_img{
+  &_img {
     width: 100%;
   }
 
-  
 
-  @include breakpoints-down(medium){
+
+  @include breakpoints-down(medium) {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
 
-    .gallery{
+    .gallery {
       margin-top: 0%;
     }
   }
 
-  @include breakpoints-down(small){
+  @include breakpoints-down(small) {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
@@ -64,15 +63,15 @@
     -moz-column-width: 100%;
     column-width: 100%;
 
-    
-    .gallery{
+
+    .gallery {
       margin-top: 0%;
     }
   }
 }
- 
+
 // model css
-.model{
+.model {
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -90,15 +89,15 @@
   z-index: 999;
 }
 
-.model.open{
+.model.open {
   visibility: visible;
   opacity: 1;
   transform: scale(1)
 }
 
-.model img{
+.model img {
   width: auto;
-  max-width:100%;
+  max-width: 100%;
   height: auto;
   display: block;
   line-height: 0;
@@ -107,7 +106,7 @@
   margin: 0 auto;
 }
 
-.model.open svg{
+.model.open svg {
   position: fixed;
   top: 10px;
   right: 10px;
@@ -125,4 +124,27 @@
   left: 5%;
   background-color: black;
   padding: 1%;
+}
+
+.gallery_container {
+  margin-top: 10%;
+}
+
+.see_more {
+  text-align: end;
+  font-weight: 700;
+  font-size: 18px;
+  a {
+    text-decoration: none;
+    padding: 2%;
+
+
+    @include breakpoints-down(medium) {
+      padding: 5%;
+    }
+  
+    @include breakpoints-down(small) {
+      padding: 5%;
+    }
+  }
 }

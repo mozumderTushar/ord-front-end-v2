@@ -1,0 +1,19 @@
+.imgDiv{
+  padding: 2%; 
+}
+
+
+li.MuiImageListItem-root{
+  @include breakpoints-down(medium){
+    width: 100% !important;
+  }
+
+  @include breakpoints-down(small){
+    width: 100% !important;
+  }
+}
+
+
+
+
+
