@@ -62,11 +62,11 @@ const Introduction = () => {
         <div>
           <h1>Our Vision</h1>
           <p>
-          <strong>To Design, Source & Deliver The Most Innovative & Trustworthy Products & Solutions</strong> The vision of ORD International.  is to become a  diversified,  leading  supplier  in the healthcare industry countrywide, by designing & delivering the most innovative specialty products in the healthcare field that it is active in.
+          <strong>To Design, Source & Deliver The Most Innovative & Trustworthy Products & Solutions</strong> The vision of ORD International is to become a  diversified,  leading  supplier  in the engineering industry countrywide, by designing & delivering the most innovative specialty products in the engineering field that it is active in.
           </p>
           <br />
           <p>
-          At ORD International we wish to develop our organization into a synonym of quality healthcare and become the optimum supplier of innovative specialty products and services in every market segment we are involved in, at country level. We wish to meet countrywide expectations for access to fast, innovative and cost effective healthcare. Additionally, through our activities we are keen to offering as many career opportunities as possible and become an employer of choice. Finally, we understand that healthcare is “all about giving” and throughout our social activities, we are committed “to give back to the local community”.
+          At ORD International we wish to develop our organization into a synonym of quality engineering and become the optimum supplier of innovative specialty products and services in every market segment we are involved in, at country level. We wish to meet countrywide expectations for access to fast, innovative and cost effective engineering. Additionally, through our activities we are keen to offering as many career opportunities as possible and become an employer of choice. Finally, we understand that engineering is “all about giving” and throughout our social activities, we are committed “to give back to the local community”.
           </p>
         </div>
       </div>
@@ -79,11 +79,11 @@ const Introduction = () => {
           </p>
           <br />
           <p>
-            Following closely our philosophy that is based on the key principles of Innovation, Quality and Service, our mission is  to  offer  to  healthcare  professionals,  as  well as the wider public across the country, innovative solutions for their daily healthcare needs.
+          Following closely our philosophy that is based on the key principles of Innovation, Quality and Service, our mission is to offer to Engineering  professionals, as well as the wider public across the country, innovative solutions for their daily  needs.
           </p>
           <br />
           <p>
-            <strong>ORD International</strong> is present in a wide array of healthcare industry   business   segments    and    therefore    aims    to  apply   continuous development , to design , source and offer optimum solutions ,whether it is  a specialty product or a service, in healthcare fields.
+            <strong>ORD International</strong> is present in a wide array of Engineering industry business segments and therefore aims to apply continuous development , to design , source and offer optimum solutions ,whether it is a specialty product or a service, in engineering fields.
           </p>
         </div>
         <div className="lottie__file">

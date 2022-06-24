@@ -113,27 +113,28 @@ function Navbar() {
             <li><a href="/">Services + </a>
               <ul>
 
-                <li><a href="/installation">Installation and Commission</a></li>
-                <li><a href="/maintenance">Service and Maintenance</a></li>
-                <li><a href="/elb">ELB and Load Sanctioning</a></li>
-                <li><a href="/epc">EPC</a></li>
-                <li><a href="/power">Power Coaling</a></li>
-                <li><a href="/slitting">Core Slitting</a></li>
-                <li><a href="/annealing">Core Annealing</a></li>
+                <li><a href="/">Installation and Commission</a></li>
+                <li><a href="/">Service and Maintenance</a></li>
+                <li><a href="/">ELB and Load Sanctioning</a></li>
+                <li><a href="/">EPC</a></li>
+                <li><a href="/">Power Coaling</a></li>
+                <li><a href="/">Core Slitting</a></li>
+                <li><a href="/">Core Annealing</a></li>
                 
               </ul>
             </li>
             <li><a href="/">Products + </a>
               <ul>
 
-                <li><a href="/lift">Lift</a></li>
-                <li><a href="/transformers">Transformers</a></li>
-                <li><a href="/switchgear">Switchgear</a></li>
-                <li><a href="/generators">Generators</a></li>
-                <li><a href="/bbt">BBT</a></li>
-                <li><a href="/ses">Solar Energy Solutions</a></li>
-                <li><a href="/other">Other Products</a></li>
-
+                <li><a href="/">Lift</a></li>
+                <li><a href="/">Transformers</a></li>
+                <li><a href="/">Switchgear</a></li>
+                <li><a href="/">Generators</a></li>
+                <li><a href="/">BBT</a></li>
+                <li><a href="/">Solar Energy Solutions</a></li>
+                <li><a href="/">Medical Equipment</a></li>
+                <li><a href="/">Fisheries</a></li>
+                <li><a href="/">Agro </a></li>
               </ul>
             </li>
             <li><a href="/images">Gallery</a></li>

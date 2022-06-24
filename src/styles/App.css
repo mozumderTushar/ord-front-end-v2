@@ -330,7 +330,7 @@ body {
   font-size: 70px;
   text-transform: uppercase;
   line-height: 80px;
-  color: #1f1f1f;
+  color: #000000;
 }
 
 @media (max-width: 64em) {
@@ -347,6 +347,14 @@ body {
     display: none;
     line-height: 0px;
   }
+}
+
+.content .left h1 .Ostyle {
+  color: #FE0000;
+}
+
+.content .left h1 .RDstyle {
+  color: #012060;
 }
 
 @media (max-width: 64em) {
@@ -1519,7 +1527,7 @@ img.logo-img {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 10px;
-  width: 300px;
+  width: 310px;
   height: 400px;
   padding: 20px 25px;
   -webkit-box-sizing: border-box;
