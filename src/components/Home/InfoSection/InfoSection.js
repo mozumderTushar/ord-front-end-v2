@@ -34,8 +34,8 @@ const InfoSection = () => {
             <div className="timeline-panel">
               <h1>Mohammad Delowar Hossain</h1>
               <h3 className="subheading">Honorable Managing Director</h3>
-              <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates adipisci facere facilis! Error at similique tempora laborum ut sapiente doloribus?
-              </p></div>
+              {/* <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates adipisci facere facilis! Error at similique tempora laborum ut sapiente doloribus?
+              </p></div> */}
             </div>
           </li>
           <li data-aos='fade-up'>
@@ -46,8 +46,8 @@ const InfoSection = () => {
                 <h3 className="subheading">	Director & Head of Business Operation</h3>
                 <h4>BBA in accounting NU,MBA in Marketing</h4>
               </div>
-              <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates adipisci facere facilis! Error at similique tempora laborum ut sapiente doloribus?
-              </p></div>
+              {/* <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates adipisci facere facilis! Error at similique tempora laborum ut sapiente doloribus?
+              </p></div> */}
             </div>
           </li>
 
@@ -58,7 +58,7 @@ const InfoSection = () => {
                 <h1>Eng Samsudduha Shoyeb</h1>
                 <h3 className="subheading">Manager (Engineering & Service Sales)</h3>
               </div>
-              <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates adipisci facere facilis! Error at similique tempora laborum ut sapiente doloribus?</p></div>
+              {/* <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates adipisci facere facilis! Error at similique tempora laborum ut sapiente doloribus?</p></div> */}
             </div>
           </li>
 
@@ -69,8 +69,8 @@ const InfoSection = () => {
                 <h1>Mr Rashedul Islam</h1>
                 <h3 className="subheading">Manager, (Tender Business)</h3>
               </div>
-              <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates adipisci facere facilis! Error at similique tempora laborum ut sapiente doloribus?
-              </p></div>
+              {/* <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates adipisci facere facilis! Error at similique tempora laborum ut sapiente doloribus?
+              </p></div> */}
             </div>
           </li>
 
