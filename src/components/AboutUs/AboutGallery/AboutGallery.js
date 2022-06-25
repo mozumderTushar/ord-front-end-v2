@@ -102,7 +102,7 @@ const AboutGallery = () => {
         <a href="" className="btnGallery" data-filter="import">IMPORT REGISTRATION</a>
         <a href="" className="btnGallery" data-filter="business">BUSINESS CERTIFICATES</a>
         {/* <a href="" className="btnGallery" data-filter="membership">MEMBERSHIP</a> */}
-        <a href="" className="btnGallery" data-filter="work">COMPLETED PROJECTS</a>
+        <a href="" className="btnGallery" data-filter="work">PROJECTS</a>
       </div>
 
 
