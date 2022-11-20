@@ -127,4 +127,15 @@ export const ImageGalleryConstant = [
     captions:'Generator ',
     imgSrc: 'https://i.ibb.co/cvFQYZx/american-public-power-association-Vu-R4o-HZ3ucc-unsplash.jpg',
   },
+  {
+    id: 17,
+    captions:'Generator ',
+    imgSrc: 'https://i.ibb.co/xM99ccN/Whats-App-Image-2022-11-20-at-2-06-01-PM.jpg',
+  },
+  {
+    id: 18,
+    captions:'Generator ',
+    imgSrc: 'https://i.ibb.co/qmVL0ft/Whats-App-Image-2022-11-20-at-2-05-46-PM.jpg',
+  },
 ]
+

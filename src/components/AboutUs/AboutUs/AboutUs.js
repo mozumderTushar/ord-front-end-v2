@@ -5,6 +5,7 @@ import Navbar from '../../Shared/NavBar/NavBar/NavBar';
 import AboutGallery from '../AboutGallery/AboutGallery';
 import Introduction from '../Introduction/Introduction';
 import Services from '../Services/Services';
+import Team from '../../Team/Team';
 
 
 const AboutUs = () => {
